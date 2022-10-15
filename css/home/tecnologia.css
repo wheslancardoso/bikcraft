@@ -22,8 +22,8 @@
 }
 
 .tecnologia-conteudo > span {
-    margin-bottom: 20px;
     display: block;
+    margin-bottom: 20px;
 }
 
 .tecnologia-conteudo h2 {
@@ -31,7 +31,11 @@
 }
 
 .tecnologia-conteudo > p {
-    margin-bottom: 32px;
+    margin-bottom: 20px;
+}
+
+.tecnologia a {
+    margin-bottom: 80px;
 }
 
 .tecnologia-vantagens {
@@ -53,20 +57,16 @@
     .tecnologia-bg {
         box-shadow: initial;
     }
-
     .tecnologia {
         grid-template-columns: 1fr;
     }
-
     .tecnologia-conteudo {
         padding-top: 60px;
         padding-bottom: 60px;
     }
-
     .tecnologia-imagem {
         display: none;
     }
-
     .tecnologia a {
         margin-bottom: 60px;
     }
@@ -77,4 +77,3 @@
         flex-direction: column;
     }
 }
-

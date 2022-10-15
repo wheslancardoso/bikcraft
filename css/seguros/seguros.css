@@ -49,7 +49,7 @@
 
 .seguros-item li::before {
     content: '';
-    display: block;
+    display: inline-block;
     width: 13px;
     height: 9px;
     background-image: url('../../img/icones/lista.svg');
